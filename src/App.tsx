@@ -1,6 +1,6 @@
 import React from 'react';
 import Data from './components/Data';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import ProfilePicture from './images/image-victor.jpg';
 // import BGCard from './images/bg-pattern-card.svg';
 import BGTop from './images/bg-pattern-top.svg';
