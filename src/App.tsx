@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App font-kumbh-sans bg-fem-100 text-fem-200 min-h-[100vh] selection:bg-neutral-800 selection:text-neutral-50">
       
-      <main className="relative min-h-[calc(100vh-1.5rem)] w-full flex items-center justify-center overflow-hidden">
-          <img src={BGTop} alt="" className='absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 scale-150 md:scale-100 xl:scale-150'/>
-          <img src={BGBottom} alt="" className='absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 scale-150 md:scale-100 xl:scale-150'/>
+      <main className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
+          <img src={BGTop} alt="" className='absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 md: scale-150 md:scale-100'/>
+          <img src={BGBottom} alt="" className='absolute bottom-0 right-0 translate-x-1/2 translate-y-[calc(51%)] md:translate-x-1/3 scale-150 md:scale-100'/>
 
           <section className="shadow-xl rounded-2xl bg-neutral-50 w-[330px] h-[400px] flex flex-col items-center z-10">
             <div className="flex flex-col items-center w-full">
@@ -34,7 +34,7 @@ function App() {
           </section>
 
       </main>
-      <Footer /> 
+      {/* <Footer />  */}
     </div>
   );
 }
